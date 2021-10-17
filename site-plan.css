@@ -14,7 +14,7 @@ Fonts are separated by a | */
   
   --heading-font: Candara;
   --paragraph-font: open sans, sans-serif;
-
+  
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black; /* headlines on a white background */
   --headline-color-on-color: #FFFFFF; /* headlines on a colored background */
@@ -61,7 +61,8 @@ header > h2 {
 }
 
 p {
-  font-family: ;
+  
+  font-family: 'Open Sans', sans-serif;
   color: var(--paragraph-color);
   padding: 1em;
 }
