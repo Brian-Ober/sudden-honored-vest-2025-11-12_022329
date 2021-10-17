@@ -1,36 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap");
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   background-color: #D89146;
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Source Serif Pro", serif;
   height: 50px;
   padding: 20px;
-  margin-top: 40px;
-  margin-bottom: 10px
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
-#content{
-  max-width:960px;
-  margin:0 auto;
+#content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.home-paragraph-3{text-align: center;
+.home-paragraph-3 {
+  text-align: center;
 }
 
 body {
-       background-color:  #A7C4DC;
-       font-family: 'Open Sans', sans-serif;
+  background-color: #A7C4DC;
+  font-family: "Open Sans", sans-serif;
 }
 
-nav a{
-    color: #4059AD;
-    font-size:1.1em
-}    
+nav a {
+  color: #4059AD;
+  font-size: 1.1em;
+}
 
-main{
+main {
   background-color: white;
 }
-.home-right-img{
-  
+.home-right-img {
 }
-
+.home-paragraph-3 {
+  height: 180px;
+  margin-bottom: 50px;
+}
