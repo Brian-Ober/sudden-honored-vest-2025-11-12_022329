@@ -8,6 +8,7 @@ h5,
 h6 {
   background-color: #D89146;
   font-family: "Source Serif Pro", serif;
+  line-height: 50px;
   height: 50px;
   padding: 20px;
   margin-top: 50px;
@@ -39,6 +40,6 @@ main {
 .home-right-img {
 }
 .home-paragraph-3 {
-  height: 180px;
-  margin-bottom: 50px;
+  height: 170px;
+  margin-bottom: 100px;
 }
