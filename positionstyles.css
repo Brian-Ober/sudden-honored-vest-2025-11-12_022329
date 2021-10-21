@@ -65,7 +65,8 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */\
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
   
 }
 .red3 {
@@ -76,7 +77,7 @@
 .green3 {
   width: 200px;
   height: 200px;
-  grid-column:2/3;
+  grid-column:1/2;
   
   background-color: green;
 }
@@ -163,18 +164,20 @@
   background-color: red;
 }
 .green6 {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   grid-column:1;
   grid-row:3;
+  margin-top: -100px;
   z-index: 2;
   background-color: green;
 }
 .yellow6 {
-  width: 100px;
-  height: 100%;
+  width: 200px;
+  height: 400px;
   grid-column:3;
   grid-row:2/4;
+  margin-left: -100px;
   z-index: 2;
   background-color: gold;
 }
