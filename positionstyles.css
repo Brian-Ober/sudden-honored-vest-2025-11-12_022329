@@ -58,6 +58,7 @@
   /* This is the parent of the activity 3 boxes. */\
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 .red3 {
   width: 100%;
@@ -67,13 +68,17 @@
 .green3 {
   width: 200px;
   height: 200px;
+  grid-column:1/2;
+  
   background-color: green;
 }
 .yellow3 {
   width: 200px;
   height: 200px;
-  grid-column:2/3;
-  grid-row:2;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row:4/5;
+  
   background-color: gold;
 }
 .blue3 {
@@ -84,6 +89,8 @@
 /* Activity 4 styles */
 .content4 {
   /* This is the parent of the activity 4 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 400px;
 }
 .red4 {
