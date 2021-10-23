@@ -63,15 +63,16 @@
 }
 /* Activity 3 styles */
 .content3 {
-  /* This is the parent of the activity 3 boxes. */\
+  /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
   
 }
 .red3 {
   width: 100%;
   height: 100px;
+  grid-column:1/3;
   background-color: red;
 }
 .green3 {
@@ -92,6 +93,7 @@
 .blue3 {
   width: 100%;
   height: 100px;
+  grid-column:1/3;
   background-color: blue;
 }
 /* Activity 4 styles */
@@ -155,7 +157,7 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
-  grid-template: 1fr 1fr 1fr;
+  grid-template: 100px 100px 100px;
 }
 .red6 {
   width: 400px;
