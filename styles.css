@@ -21,6 +21,7 @@ h6 {
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 
 .home-headline-1 {
@@ -51,10 +52,6 @@ h6 {
   grid-row: 5 / 7;
 }
 
-.home-headline-3 {
-  grid-column: 
-}
-
 #content {
   max-width: 960px;
   margin: 0 auto;
@@ -62,7 +59,10 @@ h6 {
 
 .home-paragraph-3 {
   text-align: center;
+  grid-column: 1 / 6;
+  grid-row: 7/8;
 }
+
 
 body {
   background-color: #A7C4DC;
@@ -82,4 +82,17 @@ main {
 .home-paragraph-3 {
   height: 170px;
   margin-bottom: 100px;
+}
+
+.logo {
+  width: 200px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+nav {
+  grid-column: 2/3;
 }
