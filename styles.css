@@ -72,7 +72,6 @@ body {
 nav a {
   color: #4059AD;
   font-size: 1.1em;
-  nav a:hover{underline}
 }
 
 main {
@@ -99,5 +98,25 @@ nav ul {
   list-style: none; /* removes the bullets! */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  margin: 0
+  margin: 0;
+  padding: 1em;
+  min-width: 70px;
+}
+
+nav a:hover {
+  color: #D89146;
+  background-color:#A7C4DC;
+}
+
+nav a:link,
+nav a:visited {
+  color: #4059AD;
+}
+
+nav {
+  background-color: #D89146;
+}
+
+footer {
+  
 }
