@@ -72,6 +72,7 @@ body {
 nav a {
   color: #4059AD;
   font-size: 1.1em;
+  nav a:hover{underline}
 }
 
 main {
@@ -91,8 +92,12 @@ main {
 header {
   display: grid;
   grid-template-columns: 200px auto;
+  align-items: center;
 }
 
-nav {
-  grid-column: 2/3;
+nav ul {
+  list-style: none; /* removes the bullets! */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0
 }
