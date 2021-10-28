@@ -16,6 +16,8 @@ h6 {
 }
 .banner-box img {
   width: 100%;
+  grid-column: 1 / -1;
+  grid-row: 1;
 }   
 
 .home-grid {
@@ -132,6 +134,26 @@ footer {
 .social {
   grid-column: 4 / 6;
   margin-left: 10em;
+}
+
+.banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.action {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 3em;
+  padding: 1em;
+  text-align: center;
+}
+.action button {
+  line-height: 2em;
+  width: 10em;
+  background-color: #e7c24f;
+  font-size: 1.2em;
 }
 
 @media screen and (max-width: 550px) { 
