@@ -161,16 +161,17 @@ footer {
 }
 .snake-river{
   grid-column:1/2;
-  grid-row:3;
+  grid-row:1;
   width:500px;
 }
 .grey-canyon {
   grid-column:1/2;
-  grid-row:5;
+  grid-row1;
+  
 }
 .grand-canyon {
   grid-column:1;
-  grid-row:7;
+  grid-row:1;
   width:500px;
 }
 .action {
@@ -189,11 +190,30 @@ footer {
 }
 .action-1 {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 1;
   background-color: rgba(240, 240, 240, 0.8);
   margin: 1em 3em;
   padding: 1em;
+  height:4em;
   text-align: center;
+}
+.choice1 {
+  grid-column:1/2;
+  grid-row:3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.choice2 {
+  grid-column:1/2;
+  grid-row:5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.choice3 {
+  grid-column:1/2;
+  grid-row:7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .action-1 button {
   line-height: 2em;
@@ -204,10 +224,11 @@ footer {
 
 .action-2 {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 1;
   background-color: rgba(240, 240, 240, 0.8);
   margin: 1em 3em;
   padding: 1em;
+  height:4em;
   text-align: center;
 }
 .action-2 button {
@@ -223,6 +244,7 @@ footer {
   background-color: rgba(240, 240, 240, 0.8);
   margin: 1em 3em;
   padding: 1em;
+  height:4em;
   text-align: center;
 }
 .action-3 button {
