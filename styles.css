@@ -147,6 +147,10 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+.river-title{
+  grid-column:1/6;
+}
+
 .river1 {
   grid-column:2/6;
   grid-row:3/5;
@@ -166,7 +170,7 @@ footer {
 }
 .grey-canyon {
   grid-column:1/2;
-  grid-row1;
+  grid-row:1;
   
 }
 .grand-canyon {
@@ -192,7 +196,9 @@ footer {
   grid-column: 1;
   grid-row: 1;
   background-color: rgba(240, 240, 240, 0.8);
-  margin: 1em 3em;
+  margin-top: 15em;
+  margin-left:3em;
+  margin-right:3em;
   padding: 1em;
   height:4em;
   text-align: center;
@@ -224,9 +230,11 @@ footer {
 
 .action-2 {
   grid-column: 1;
-  grid-row: 1;
+  grid-row:1;
   background-color: rgba(240, 240, 240, 0.8);
-  margin: 1em 3em;
+  margin-top: 15em;
+  margin-left:3em;
+  margin-right:3em;
   padding: 1em;
   height:4em;
   text-align: center;
@@ -240,9 +248,11 @@ footer {
 
 .action-3 {
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 1;
   background-color: rgba(240, 240, 240, 0.8);
-  margin: 1em 3em;
+  margin-top: 15em;
+  margin-left:3em;
+  margin-right:3em;
   padding: 1em;
   height:4em;
   text-align: center;
